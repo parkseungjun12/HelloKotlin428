@@ -36,8 +36,8 @@ public class FlowControlJavaActivity extends AppCompatActivity {
                     Toast.makeText(getApplicationContext(), "" + number + "은(는) else", Toast.LENGTH_LONG).show();
                 }
                 switch(number){
-                    case 4: btnLD.setText("실행 for 4"); break;
-                    case 9: btnLD.setText("실행 for 9"); break;
+                    case 4: // btnLD.setText("실행 for 4"); break;
+                    case 9: btnLD.setText("실행 for 9" + number); break;
                     default: btnLD.setText("실행 for else"); break;
                 }
             }
